@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,500;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    background-color: #FFF6FA;
+    color: rgba(0, 0, 0, 0.671);
+}
+
+#center {
+    min-height: 550px;
+    max-width: 1200px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.075);
+    margin: auto;
+    margin-top: 7%;
+}
+
+.logo-roxa-favip {
+    margin-top: 35px;
+    width: 220px;
+}
+
+h1 {
+    margin-bottom: 1%;
+    line-height: 65px;
+    font-size: 55px;
+}
+
+button {
+    border-radius: 10px;
+    cursor: pointer;
+    height: 36px;
+    width: 225px;
+    background-color: #a0005c;
+    border:none;
+    color: white;
+    box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.294);
+    margin-left: 15px;
+}
+
+.imagem-esquerdo {
+    width: 255px;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: -24rem;
+}
+
+.imagem-direito {
+    width: 225px;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 23rem;
+}
+
+.login {
+    width: 15px;
+}
+
+.senha {
+    width: 15px;
+}
+
+
+button:hover {
+    background-color: #c0006d;
+}
+
+input {
+    height: 36px;
+    width: 225px;
+    border-radius: 12px;
+    border:none;
+    background-color: rgba(255, 255, 255, 0.63);
+    box-shadow:  0px 0px 7px rgba(0, 0, 0, 0.068);
+    padding-left: 18px;
+    outline: none;
+}
+
+#esqueci-me  {
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+#dark-in-mode {
+    font-size: 20px;
+}
+
+.olho {
+    margin-top: 17px;
+    cursor: pointer;
+    position: absolute;
+    width: 22px;
+    margin-left: 13rem;
+}
+
+@media (max-width: 1023px) {
+    .imagem-direito{display: none;}
+    .imagem-esquerdo{display: none;}
+  }
